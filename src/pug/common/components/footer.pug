@@ -1,0 +1,15 @@
+footer.row
+    .footer-content
+      .footer-content__logo
+        p.footer-logo DREAMSHARE
+      .footer-content__links
+        h3.list-title Company
+        ul.list
+          each val, index in ['About', 'Contact', 'Press', 'Blog', 'Terms and Privacy', 'Help']
+            li.item=  val
+      .footer-content__partners
+        h3.list-title Partners
+      .footer-content__development
+        .logo-development
+          p.logo-development__text DESIGNED BY
+          img.logo-development__img(src='./images/Bitmap.png', alt='bitmap')
